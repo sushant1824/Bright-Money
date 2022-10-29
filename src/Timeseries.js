@@ -3,30 +3,11 @@ import {useEffect, useState} from 'react';
 
 const TimeSeries = (props) => {
 
-	// let csvURL = "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered_comma.csv"
-
 	const {width, height , data } = props;
-
-	// const [data, setData] = useState([]);
 
   useEffect(()=>{
     drawChart();
   },[data])
-
-	// gets csv data from a random csv I found
-	// ex. [{date: '2021-12-12', value: 1000}]
-//   const getURLData = async () => {
-//     let tempData = [];
-//       await d3.csv(csvURL,
-//       (() =>{}),
-//       function(d){
-//         //console.log(d);
-//         tempData.push({date: d3.timeParse("%Y-%m-%d")(d.date), value: parseFloat(d.value)})
-//       }
-
-//     )
-//       setData(tempData);
-//   } 
   
 const drawChart = () => {
 
