@@ -1,4 +1,4 @@
-project hostred link - https://bright-money.vercel.app/
+project hosted link - https://bright-money.vercel.app/
 
 # Getting Started with Create React App
 
